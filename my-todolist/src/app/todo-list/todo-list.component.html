@@ -1,0 +1,15 @@
+<h1>Meu todo list</h1>
+
+<div class="container">
+  <form>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Digite sua tarefa"
+        [(ngModel)]="novaTarefa"
+        name="tarefa"
+      />
+    </mat-form-field>
+    <button type="button" mat-button (click)="adicionar()">Action</button>
+  </form>
+</div>
